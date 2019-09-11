@@ -86,8 +86,8 @@ users = {
 # p users["Avril"][:pets][:species]
 
 # p users["Erik"][:lottery_numbers].sort[0]
-array = users["Avril"][:lottery_numbers]
-p even_array = array.keep_if{|number| number%2==0}
+# array = users["Avril"][:lottery_numbers]
+# p even_array = array.keep_if{|number| number%2==0}
 
 
 
